@@ -12,21 +12,31 @@ Uygulama yalnızca **cihazınızda** çalışan, internete veri göndermeyen bir
 ---
 
 ## 2. Cihazda Saklanan Veriler
-| Veri | Amaç | Saklama Yeri |
-|------|------|--------------|
-| Sayaç değerleri | Sayaç ilerlemenizi hatırlamak | Cihaz depolaması |
-| Uygulama ayarları | Tema, ses-titreşim tercihleriniz | Cihaz depolaması |
+<table>
+<thead>
+<tr><th>Veri</th><th>Amaç</th><th>Saklama Yeri</th></tr>
+</thead>
+<tbody>
+<tr><td>Sayaç değerleri</td><td>Sayaç ilerlemenizi hatırlamak</td><td>Cihaz depolaması</td></tr>
+<tr><td>Uygulama ayarları</td><td>Tema, ses-titreşim tercihleriniz</td><td>Cihaz depolaması</td></tr>
+</tbody>
+</table>
 
 > Bu veriler uygulama silindiğinde veya cihaz sıfırlandığında otomatik olarak kaldırılır.
 
 ---
 
 ## 3. İzinler
-| İzin | Kullanım |
-|------|----------|
-| `VIBRATE` | Dokunsal geri bildirim |
-| `INTERNET` | **Sadece** olası sürüm kontrolü – herhangi bir veriniz gönderilmez |
-| `WRITE_EXTERNAL_STORAGE` (API 28 ve altı) | Ayar dosyalarını kaydetmek |
+<table>
+<thead>
+<tr><th>İzin</th><th>Kullanım</th></tr>
+</thead>
+<tbody>
+<tr><td><code>VIBRATE</code></td><td>Dokunsal geri bildirim</td></tr>
+<tr><td><code>INTERNET</code></td><td><b>Sadece</b> olası sürüm kontrolü – herhangi bir veriniz gönderilmez</td></tr>
+<tr><td><code>WRITE_EXTERNAL_STORAGE</code> (API 28 ve altı)</td><td>Ayar dosyalarını kaydetmek</td></tr>
+</tbody>
+</table>
 
 ---
 
